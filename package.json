@@ -1,0 +1,35 @@
+{
+  "name": "backend-project-lvl3",
+  "version": "0.0.1",
+  "description": "[![Actions Status](https://github.com/Kopyz/backend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/Kopyz/backend-project-lvl3/actions)",
+  "main": "src/index.js",
+  "bin": {
+    "page-loader": "src/bin/page-loader.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kopyz/backend-project-lvl3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kopyz/backend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/Kopyz/backend-project-lvl3#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.4.7",
+    "nock": "^13.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "commander": "^9.0.0"
+  }
+}
